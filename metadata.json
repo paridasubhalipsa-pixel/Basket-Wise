@@ -1,0 +1,6 @@
+{
+  "name": "BasketWise – Smart Shopping Comparison System",
+  "description": "Compare prices across multiple sellers, track price histories, manage smart shopping lists and calculate basket totals with verified savings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

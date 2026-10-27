@@ -1,0 +1,1580 @@
+{
+  "users": [
+    {
+      "_id": "usr_admin_1",
+      "name": "Sarah Admin",
+      "email": "admin@basketwise.com",
+      "passwordHash": "$2b$10$99C2iSs6bR8CoDAqGAm.puNz.T5PXpmuP7PCQ/l1XYCxGFmJlZLPq",
+      "role": "admin",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "usr_alex_1",
+      "name": "Alex Johnson",
+      "email": "alex@example.com",
+      "passwordHash": "$2b$10$99C2iSs6bR8CoDAqGAm.puCx5/tWtvph1xJb0b0Z.r.L251uNtYIy",
+      "role": "user",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "cat_audio",
+      "name": "Audio & Sound",
+      "slug": "audio-sound",
+      "description": "Premium noise-cancelling headphones, wireless earbuds, and home studio audio.",
+      "image": "/src/assets/images/product_anc_headphones_1792656374452.jpg",
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "cat_wearables",
+      "name": "Wearables & Smartwatches",
+      "slug": "wearables-smartwatches",
+      "description": "Fitness trackers, titanium sports smartwatches, and biometric wearables.",
+      "image": "/src/assets/images/product_smartwatch_titanium_1792656375885.jpg",
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "cat_appliances",
+      "name": "Kitchen & Home Appliances",
+      "slug": "kitchen-home-appliances",
+      "description": "Barista espresso machines, precision air fryers, and smart kitchen tools.",
+      "image": "/src/assets/images/product_espresso_machine_1792656373998.jpg",
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "cat_computing",
+      "name": "Laptops & Computing",
+      "slug": "laptops-computing",
+      "description": "High-performance laptops, mechanical keyboards, and 4K creator monitors.",
+      "image": "/src/assets/images/hero_smart_shopping_1792656373006.jpg",
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "cat_mobile",
+      "name": "Smartphones & Tablets",
+      "slug": "smartphones-tablets",
+      "description": "Flagship smartphones, pro digital tablets, and mobile productivity gear.",
+      "image": "/src/assets/images/hero_smart_shopping_1792656373006.jpg",
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "cat_smarthome",
+      "name": "Smart Home & Living",
+      "slug": "smart-home-living",
+      "description": "Mesh Wi-Fi routers, robotic vacuums, and ambient lighting ecosystems.",
+      "image": "/src/assets/images/hero_smart_shopping_1792656373006.jpg",
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    }
+  ],
+  "products": [
+    {
+      "_id": "prd_sony_wh1000xm5",
+      "name": "Sony WH-1000XM5 Wireless Noise-Cancelling Headphones",
+      "slug": "sony-wh-1000xm5-wireless-noise-cancelling-headphones",
+      "brand": "Sony",
+      "categoryId": "cat_audio",
+      "categoryName": "Audio & Sound",
+      "description": "Industry-leading noise cancellation optimized by dual processors and 8 microphones. Enjoy exceptional sound clarity with 30-hour battery life and ultra-comfortable lightweight design.",
+      "specifications": {
+        "Battery Life": "Up to 30 Hours (ANC On)",
+        "Driver Unit": "30mm Carbon Fiber Composite",
+        "Weight": "250 grams",
+        "Connectivity": "Bluetooth 5.2, Multipoint, 3.5mm Aux",
+        "Charging": "USB-C Quick Charge (3 min = 3 hrs)",
+        "Active Noise Cancelling": "Dual Processor V1 + HD QN1"
+      },
+      "images": [
+        "/src/assets/images/product_anc_headphones_1792656374452.jpg"
+      ],
+      "averageRating": 4.8,
+      "reviewCount": 1420,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_garmin_epix_pro",
+      "name": "Garmin Epix Pro Gen 2 Sapphire Titanium Smartwatch",
+      "slug": "garmin-epix-pro-gen-2-sapphire-titanium",
+      "brand": "Garmin",
+      "categoryId": "cat_wearables",
+      "categoryName": "Wearables & Smartwatches",
+      "description": "Ultimate high-performance GPS multisport smartwatch featuring a crystal-clear 1.3-inch AMOLED display, sapphire crystal lens, titanium bezel, and built-in multi-LED tactical flashlight.",
+      "specifications": {
+        "Display": "1.3\" AMOLED Touchscreen (416x416)",
+        "Battery Life": "16 Days Smartwatch / 42 Hours GPS",
+        "Water Rating": "10 ATM (100 meters)",
+        "Sensors": "Elevate Gen 5 Heart Rate, Pulse Ox, Multi-band GNSS",
+        "Materials": "Titanium Bezel, Sapphire Crystal Lens",
+        "Flashlight": "Built-in Variable White/Red LED"
+      },
+      "images": [
+        "/src/assets/images/product_smartwatch_titanium_1792656375885.jpg"
+      ],
+      "averageRating": 4.9,
+      "reviewCount": 380,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_breville_barista_touch",
+      "name": "Breville Barista Touch Impress Espresso Machine",
+      "slug": "breville-barista-touch-impress-espresso-machine",
+      "brand": "Breville",
+      "categoryId": "cat_appliances",
+      "categoryName": "Kitchen & Home Appliances",
+      "description": "Automated touchscreen coffee machine with step-by-step barista guidance, precision Baratza conical burrs, intelligent dosing, assisted 10kg tamping, and automated microfoam milk texturing.",
+      "specifications": {
+        "Heating System": "ThermoJet 3-second instant heat-up",
+        "Pump Pressure": "15 Bar Italian Pump (9 bar extraction)",
+        "Grinder": "Integrated European Precision Conical Burrs",
+        "Water Tank": "2.0 Liters with Charcoal Filter",
+        "Interface": "Color Touchscreen with Step-by-Step Guidance",
+        "Material": "Brushed Stainless Steel"
+      },
+      "images": [
+        "/src/assets/images/product_espresso_machine_1792656373998.jpg"
+      ],
+      "averageRating": 4.7,
+      "reviewCount": 620,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_macbook_pro_14",
+      "name": "Apple MacBook Pro 14\" M3 Pro (18GB / 512GB SSD)",
+      "slug": "apple-macbook-pro-14-m3-pro",
+      "brand": "Apple",
+      "categoryId": "cat_computing",
+      "categoryName": "Laptops & Computing",
+      "description": "Unprecedented speed and sustained performance with the 11-core CPU and 14-core GPU M3 Pro chip. Liquid Retina XDR display with 1600 nits peak brightness and up to 18 hours of battery life.",
+      "specifications": {
+        "Processor": "Apple M3 Pro (11-Core CPU, 14-Core GPU)",
+        "Unified Memory": "18GB Unified Memory",
+        "Storage": "512GB High-Speed NVMe SSD",
+        "Display": "14.2\" Liquid Retina XDR (3024x1964, 120Hz ProMotion)",
+        "Ports": "3x Thunderbolt 4, HDMI, SDXC, MagSafe 3",
+        "Weight": "1.61 kg"
+      },
+      "images": [
+        "/src/assets/images/hero_smart_shopping_1792656373006.jpg"
+      ],
+      "averageRating": 4.9,
+      "reviewCount": 890,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_samsung_s24_ultra",
+      "name": "Samsung Galaxy S24 Ultra 5G (Titanium Gray, 256GB)",
+      "slug": "samsung-galaxy-s24-ultra-5g-titanium",
+      "brand": "Samsung",
+      "categoryId": "cat_mobile",
+      "categoryName": "Smartphones & Tablets",
+      "description": "Titanium frame flagship with 200MP Quad Telephoto camera, embedded S Pen, Corning Gorilla Armor anti-reflective glass, and Galaxy AI live translation and photo editing.",
+      "specifications": {
+        "Processor": "Snapdragon 8 Gen 3 for Galaxy",
+        "Display": "6.8\" Dynamic AMOLED 2X, 1-120Hz, 2600 nits",
+        "Camera": "200MP Main + 50MP 5x Periscope + 10MP 3x + 12MP Ultra-wide",
+        "Battery": "5000 mAh with 45W Fast Charging",
+        "Stylus": "Integrated S Pen with Air Actions",
+        "Armor": "Titanium Frame + IP68 Water Resistance"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=800&q=80"
+      ],
+      "averageRating": 4.7,
+      "reviewCount": 1150,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_dyson_v15_detect",
+      "name": "Dyson V15 Detect Absolute Cordless Vacuum",
+      "slug": "dyson-v15-detect-absolute-cordless-vacuum",
+      "brand": "Dyson",
+      "categoryId": "cat_smarthome",
+      "categoryName": "Smart Home & Living",
+      "description": "Most powerful and intelligent cordless vacuum. Engineered with Fluffy Optic illumination revealing invisible microdust, piezoelectric particle sensor, and LCD scientific count readout.",
+      "specifications": {
+        "Suction Power": "240 Air Watts (Hyperdymium Motor)",
+        "Run Time": "Up to 60 Minutes Fade-Free",
+        "Filtration": "99.99% Whole-Machine HEPA down to 0.1 microns",
+        "Bin Volume": "0.77 Liters with Clean Ejection",
+        "Weight": "3.0 kg",
+        "Attachments": "Digital Motorbar, Hair Screw Tool, Fluffy Optic Head"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80"
+      ],
+      "averageRating": 4.8,
+      "reviewCount": 740,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_bose_quietcomfort_ultra",
+      "name": "Bose QuietComfort Ultra Over-Ear Wireless Headphones",
+      "slug": "bose-quietcomfort-ultra-headphones",
+      "brand": "Bose",
+      "categoryId": "cat_audio",
+      "categoryName": "Audio & Sound",
+      "description": "World-class active noise cancellation with breakthrough spatialized audio. CustomTune technology personalizes sound performance to your ear shape for immersion.",
+      "specifications": {
+        "Battery": "Up to 24 Hours (18 hrs with Immersive Audio)",
+        "Modes": "Quiet Mode, Aware Mode, Immersion Mode",
+        "Microphones": "Advanced array for crystal-clear phone calls",
+        "Bluetooth": "Version 5.3 with Snapdragon Sound aptX Adaptive",
+        "Weight": "252 grams"
+      },
+      "images": [
+        "/src/assets/images/product_anc_headphones_1792656374452.jpg"
+      ],
+      "averageRating": 4.6,
+      "reviewCount": 420,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_apple_watch_ultra_2",
+      "name": "Apple Watch Ultra 2 (Titanium, Ocean Band)",
+      "slug": "apple-watch-ultra-2-titanium",
+      "brand": "Apple",
+      "categoryId": "cat_wearables",
+      "categoryName": "Wearables & Smartwatches",
+      "description": "Rugged titanium case with precision dual-frequency GPS, customizable Action button, 3000-nit Always-On Retina display, and depth gauge certified for scuba diving to 40 meters.",
+      "specifications": {
+        "Case": "49mm Aerospace-grade Titanium",
+        "Display": "Always-On Retina OLED (3000 nits max)",
+        "Battery Life": "36 Hours normal / 72 Hours Low Power Mode",
+        "Water Resistance": "100m, EN13319 Dive Certified to 40m",
+        "Sensors": "Blood Oxygen, ECG, Temperature Sensing, Dual Speakers"
+      },
+      "images": [
+        "/src/assets/images/product_smartwatch_titanium_1792656375885.jpg"
+      ],
+      "averageRating": 4.9,
+      "reviewCount": 910,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_philips_airfryer_xxl",
+      "name": "Philips Premium Smart Sensing Airfryer XXL (7.2L)",
+      "slug": "philips-premium-smart-sensing-airfryer-xxl",
+      "brand": "Philips",
+      "categoryId": "cat_appliances",
+      "categoryName": "Kitchen & Home Appliances",
+      "description": "Smart Sensing technology automatically adjusts time and temperature during cooking for perfect results. Rapid CombiAir technology uses 90% less oil for crispy, juicy healthy meals.",
+      "specifications": {
+        "Capacity": "7.2 Liters (1.4 kg fries / whole chicken)",
+        "Power": "2225 Watts",
+        "Programs": "Smart Chef pre-set programs + manual control",
+        "Cleaning": "QuickClean basket, dishwasher-safe parts",
+        "Technology": "Rapid Air Twin TurboStar fat removal"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=800&q=80"
+      ],
+      "averageRating": 4.7,
+      "reviewCount": 512,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_dell_xps_15",
+      "name": "Dell XPS 15 9530 (Intel Core i9, RTX 4070, 32GB RAM)",
+      "slug": "dell-xps-15-9530-oled",
+      "brand": "Dell",
+      "categoryId": "cat_computing",
+      "categoryName": "Laptops & Computing",
+      "description": "Creator powerhouse packed with 13th Gen Intel Core i9, dedicated NVIDIA GeForce RTX 4070 graphics, 3.5K OLED touchscreen, and precision machined CNC aluminum chassis.",
+      "specifications": {
+        "Processor": "13th Gen Intel Core i9-13900H (14 cores, up to 5.4 GHz)",
+        "Graphics": "NVIDIA GeForce RTX 4070 8GB GDDR6",
+        "Display": "15.6\" 3.5K (3456x2160) OLED Touch InfinityEdge",
+        "Memory": "32GB DDR5 4800MHz",
+        "Storage": "1TB M.2 PCIe NVMe SSD"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80"
+      ],
+      "averageRating": 4.5,
+      "reviewCount": 310,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_ipad_pro_m4",
+      "name": "Apple iPad Pro 13\" M4 (Ultra Retina XDR, 256GB)",
+      "slug": "apple-ipad-pro-13-m4",
+      "brand": "Apple",
+      "categoryId": "cat_mobile",
+      "categoryName": "Smartphones & Tablets",
+      "description": "Impossibly thin 5.1mm design powered by the breakthrough Apple M4 chip. Features Tandem OLED Ultra Retina XDR display with incredible contrast, brightness, and Apple Pencil Pro support.",
+      "specifications": {
+        "Chip": "Apple M4 chip with 9-core CPU and 10-core GPU",
+        "Display": "13\" Tandem OLED Ultra Retina XDR (1600 nits peak)",
+        "Thickness": "5.1 mm (Thinnest Apple product ever)",
+        "Cameras": "12MP Wide back camera with LiDAR, Landscape 12MP front",
+        "Weight": "579 grams"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&q=80"
+      ],
+      "averageRating": 4.9,
+      "reviewCount": 680,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_sonos_era_300",
+      "name": "Sonos Era 300 Spatial Audio Smart Speaker",
+      "slug": "sonos-era-300-spatial-audio-speaker",
+      "brand": "Sonos",
+      "categoryId": "cat_audio",
+      "categoryName": "Audio & Sound",
+      "description": "Revolutionary acoustic architecture with six optimally positioned drivers all around the front, sides, and top to support Dolby Atmos Spatial Audio for unmatched immersion.",
+      "specifications": {
+        "Amplifiers": "6 Class-D digital amplifiers",
+        "Drivers": "4 tweeters + 2 woofers angled for ceiling and side reflections",
+        "Connectivity": "Wi-Fi 6, Bluetooth 5.0, USB-C Line-In, Apple AirPlay 2",
+        "Voice Control": "Sonos Voice Control & Amazon Alexa built-in",
+        "Dimensions": "160 x 260 x 185 mm"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "averageRating": 4.7,
+      "reviewCount": 390,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_roborock_s8_pro",
+      "name": "Roborock S8 Pro Ultra Robot Vacuum and Mop",
+      "slug": "roborock-s8-pro-ultra-robot-vacuum",
+      "brand": "Roborock",
+      "categoryId": "cat_smarthome",
+      "categoryName": "Smart Home & Living",
+      "description": "All-in-one docking station that automatically washes the mop, self-dries with warm air, empties dustbin for up to 7 weeks, and refills water tank. 6000Pa extreme suction with Reactive 3D obstacle avoidance.",
+      "specifications": {
+        "Suction Power": "6000 Pa HyperForce",
+        "Mopping": "VibraRise 2.0 dual sonic vibration (3000 scrub/min)",
+        "Docking Station": "Auto Empty, Auto Wash, Auto Refill, Warm Air Drying",
+        "Navigation": "PreciSense LiDAR + Reactive 3D Obstacle Avoidance",
+        "Battery": "5200 mAh (up to 180 min runtime)"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?auto=format&fit=crop&w=800&q=80"
+      ],
+      "averageRating": 4.8,
+      "reviewCount": 460,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_kindle_scribe",
+      "name": "Amazon Kindle Scribe (10.2\" 300 ppi, Premium Pen, 32GB)",
+      "slug": "amazon-kindle-scribe-32gb",
+      "brand": "Amazon",
+      "categoryId": "cat_computing",
+      "categoryName": "Laptops & Computing",
+      "description": "The first Kindle for reading and writing, with a glare-free 10.2-inch 300 ppi Paperwhite display, included battery-free Premium Pen, adjustable warm light, and weeks of battery life.",
+      "specifications": {
+        "Display": "10.2\" Paperwhite with glare-free 300 ppi front-lit screen",
+        "Pen": "Premium Pen with dedicated eraser and shortcut button",
+        "Storage": "32 GB holds thousands of books and notebooks",
+        "Battery": "Months of reading or weeks of writing on a single charge",
+        "Weight": "433 grams"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80"
+      ],
+      "averageRating": 4.6,
+      "reviewCount": 310,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_delonghi_magnifica",
+      "name": "De'Longhi Magnifica S Fully Automatic Coffee Maker",
+      "slug": "delonghi-magnifica-s-automatic-coffee-maker",
+      "brand": "De'Longhi",
+      "categoryId": "cat_appliances",
+      "categoryName": "Kitchen & Home Appliances",
+      "description": "Compact bean-to-cup machine delivering barista-grade espresso, black coffee, and manual milk frother for creamy cappuccinos with 13 grind settings.",
+      "specifications": {
+        "Grinder": "Steel conical burr with 13 adjustable settings",
+        "Pressure": "15 Bar professional extraction pressure",
+        "Water Capacity": "1.8 Liters removable water reservoir",
+        "Milk Frother": "Traditional manual stainless steel steam wand",
+        "Power": "1450 Watts with auto shut-off"
+      },
+      "images": [
+        "/src/assets/images/product_espresso_machine_1792656373998.jpg"
+      ],
+      "averageRating": 4.6,
+      "reviewCount": 780,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_samsung_galaxy_watch6",
+      "name": "Samsung Galaxy Watch6 Classic (47mm, LTE Stainless Steel)",
+      "slug": "samsung-galaxy-watch-6-classic-47mm",
+      "brand": "Samsung",
+      "categoryId": "cat_wearables",
+      "categoryName": "Wearables & Smartwatches",
+      "description": "Iconic rotating bezel design crafted with durable stainless steel and Sapphire Crystal glass. Comprehensive sleep coaching, body composition BIA analysis, and ECG monitoring.",
+      "specifications": {
+        "Display": "1.5\" Super AMOLED (480x480) with Rotating Bezel",
+        "Material": "Stainless Steel Case with Sapphire Crystal",
+        "Health Sensors": "BioActive Sensor (Optical Heart Rate + ECG + BIA)",
+        "Battery": "425 mAh with WPC Fast Wireless Charging",
+        "Durability": "5ATM + IP68 + MIL-STD-810H"
+      },
+      "images": [
+        "/src/assets/images/product_smartwatch_titanium_1792656375885.jpg"
+      ],
+      "averageRating": 4.7,
+      "reviewCount": 520,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_logitech_mx_master_3s",
+      "name": "Logitech MX Master 3S Wireless Performance Mouse",
+      "slug": "logitech-mx-master-3s-performance-mouse",
+      "brand": "Logitech",
+      "categoryId": "cat_computing",
+      "categoryName": "Laptops & Computing",
+      "description": "Ergonomic precision mouse equipped with 8000 DPI track-on-glass sensor, quiet click switches, MagSpeed electromagnetic scrolling up to 1,000 lines per second, and Easy-Switch multi-device control.",
+      "specifications": {
+        "Sensor": "Darkfield High Precision 8000 DPI",
+        "Scroll Wheel": "MagSpeed Electromagnetic SmartShift",
+        "Clicks": "Quiet Clicks (90% noise reduction)",
+        "Battery": "500 mAh rechargeable (lasts up to 70 days)",
+        "Connectivity": "Bluetooth Low Energy & Logi Bolt Receiver"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80"
+      ],
+      "averageRating": 4.9,
+      "reviewCount": 2240,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_keychron_q1_pro",
+      "name": "Keychron Q1 Pro Wireless Custom Mechanical Keyboard",
+      "slug": "keychron-q1-pro-wireless-custom-keyboard",
+      "brand": "Keychron",
+      "categoryId": "cat_computing",
+      "categoryName": "Laptops & Computing",
+      "description": "CNC aluminum body 75% mechanical keyboard with double-gasket design, hot-swappable switches, QMK/VIA programmable knobs, KSA double-shot PBT keycaps, and Mac/Windows switchable layout.",
+      "specifications": {
+        "Body": "Full CNC Machined Aluminum 6063",
+        "Layout": "75% Layout with Multi-function Programmable Knob",
+        "Switches": "Keychron K Pro Red (Hot-swappable 3-pin & 5-pin)",
+        "Connectivity": "Bluetooth 5.1 & Type-C Wired (1000 Hz polling rate)",
+        "Battery": "4000 mAh rechargeable Li-polymer"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "averageRating": 4.8,
+      "reviewCount": 340,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_anker_soundcore_motion_plus",
+      "name": "Anker Soundcore Motion+ Hi-Res Bluetooth Speaker (30W)",
+      "slug": "anker-soundcore-motion-plus-hi-res-speaker",
+      "brand": "Anker",
+      "categoryId": "cat_audio",
+      "categoryName": "Audio & Sound",
+      "description": "Stunning Hi-Res 30W portable audio certified with Qualcomm aptX, ultra-wide frequency range from 50 Hz to 40 kHz, IPX7 waterproof rating, and custom EQ via companion app.",
+      "specifications": {
+        "Power": "30 Watts with Dual Neodymium Woofers & Tweeters",
+        "Audio Codec": "Qualcomm aptX Hi-Res Certified",
+        "Waterproof": "IPX7 Fully Submersible Waterproof",
+        "Playtime": "12 Hours (6700 mAh battery)",
+        "Frequency Range": "50 Hz - 40 kHz"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "averageRating": 4.7,
+      "reviewCount": 1850,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "prd_philips_hue_starter_kit",
+      "name": "Philips Hue White & Color Ambiance Smart Starter Kit",
+      "slug": "philips-hue-starter-kit-smart-bulbs",
+      "brand": "Philips",
+      "categoryId": "cat_smarthome",
+      "categoryName": "Smart Home & Living",
+      "description": "Complete smart lighting kit containing 3 color-changing A19 LED bulbs, Hue Bridge hub, and Smart Button. Choose from 16 million vibrant colors and synchronize with music, games, or movies.",
+      "specifications": {
+        "Brightness": "1100 Lumens per bulb (75W equivalent)",
+        "Colors": "16 Million Colors + 50,000 Shades of Warm to Cool White",
+        "Hub": "Hue Bridge included (supports up to 50 lights)",
+        "Integrations": "Matter, Apple Home, Google Assistant, Amazon Alexa",
+        "Lifetime": "25,000 hours"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1550985616-10810253b84d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "averageRating": 4.8,
+      "reviewCount": 1120,
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    }
+  ],
+  "sellers": [
+    {
+      "_id": "sel_croma",
+      "name": "Croma Electronics",
+      "slug": "croma",
+      "website": "https://www.croma.com",
+      "logo": "https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=120&q=80",
+      "rating": 4.6,
+      "deliveryDays": "1-2 Days Express",
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "sel_reliance",
+      "name": "Reliance Digital",
+      "slug": "reliance-digital",
+      "website": "https://www.reliancedigital.in",
+      "logo": "https://images.unsplash.com/photo-1526738549149-8e07eca6c147?auto=format&fit=crop&w=120&q=80",
+      "rating": 4.5,
+      "deliveryDays": "2-3 Days Standard",
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "sel_vijay",
+      "name": "Vijay Sales",
+      "slug": "vijay-sales",
+      "website": "https://www.vijaysales.com",
+      "logo": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=120&q=80",
+      "rating": 4.4,
+      "deliveryDays": "2-4 Days Standard",
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "sel_tatacliq",
+      "name": "Tata CLiQ Luxury",
+      "slug": "tata-cliq",
+      "website": "https://luxury.tatacliq.com",
+      "logo": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=120&q=80",
+      "rating": 4.7,
+      "deliveryDays": "Next Day Prime",
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "sel_techdirect",
+      "name": "TechDirect Authorized",
+      "slug": "tech-direct",
+      "website": "https://techdirect-store.com",
+      "logo": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=120&q=80",
+      "rating": 4.8,
+      "deliveryDays": "2-3 Business Days",
+      "isActive": true,
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    }
+  ],
+  "offers": [
+    {
+      "_id": "off_sony_1",
+      "productId": "prd_sony_wh1000xm5",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 26990,
+      "originalPrice": 34990,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/sony-wh-1000xm5",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_sony_2",
+      "productId": "prd_sony_wh1000xm5",
+      "sellerId": "sel_reliance",
+      "sellerName": "Reliance Digital",
+      "price": 27499,
+      "originalPrice": 34990,
+      "currency": "₹",
+      "productUrl": "https://www.reliancedigital.in/sony-wh-1000xm5",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_sony_3",
+      "productId": "prd_sony_wh1000xm5",
+      "sellerId": "sel_vijay",
+      "sellerName": "Vijay Sales",
+      "price": 25990,
+      "originalPrice": 34990,
+      "currency": "₹",
+      "productUrl": "https://www.vijaysales.com/sony-wh-1000xm5",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_sony_4",
+      "productId": "prd_sony_wh1000xm5",
+      "sellerId": "sel_tatacliq",
+      "sellerName": "Tata CLiQ Luxury",
+      "price": 28990,
+      "originalPrice": 34990,
+      "currency": "₹",
+      "productUrl": "https://luxury.tatacliq.com/sony-wh-1000xm5",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_garmin_1",
+      "productId": "prd_garmin_epix_pro",
+      "sellerId": "sel_techdirect",
+      "sellerName": "TechDirect Authorized",
+      "price": 94990,
+      "originalPrice": 112000,
+      "currency": "₹",
+      "productUrl": "https://techdirect-store.com/garmin-epix-pro-gen-2",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_garmin_2",
+      "productId": "prd_garmin_epix_pro",
+      "sellerId": "sel_tatacliq",
+      "sellerName": "Tata CLiQ Luxury",
+      "price": 98990,
+      "originalPrice": 112000,
+      "currency": "₹",
+      "productUrl": "https://luxury.tatacliq.com/garmin-epix-pro",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_garmin_3",
+      "productId": "prd_garmin_epix_pro",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 99990,
+      "originalPrice": 112000,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/garmin-epix-pro",
+      "availability": "limited",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_breville_1",
+      "productId": "prd_breville_barista_touch",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 79990,
+      "originalPrice": 94990,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/breville-barista-touch",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_breville_2",
+      "productId": "prd_breville_barista_touch",
+      "sellerId": "sel_tatacliq",
+      "sellerName": "Tata CLiQ Luxury",
+      "price": 74990,
+      "originalPrice": 94990,
+      "currency": "₹",
+      "productUrl": "https://luxury.tatacliq.com/breville-barista-touch",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_breville_3",
+      "productId": "prd_breville_barista_touch",
+      "sellerId": "sel_vijay",
+      "sellerName": "Vijay Sales",
+      "price": 77500,
+      "originalPrice": 94990,
+      "currency": "₹",
+      "productUrl": "https://www.vijaysales.com/breville-barista-touch",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_macbook_1",
+      "productId": "prd_macbook_pro_14",
+      "sellerId": "sel_reliance",
+      "sellerName": "Reliance Digital",
+      "price": 184900,
+      "originalPrice": 199900,
+      "currency": "₹",
+      "productUrl": "https://www.reliancedigital.in/macbook-pro-14-m3",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_macbook_2",
+      "productId": "prd_macbook_pro_14",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 181900,
+      "originalPrice": 199900,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/macbook-pro-14-m3",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_macbook_3",
+      "productId": "prd_macbook_pro_14",
+      "sellerId": "sel_vijay",
+      "sellerName": "Vijay Sales",
+      "price": 183500,
+      "originalPrice": 199900,
+      "currency": "₹",
+      "productUrl": "https://www.vijaysales.com/macbook-pro-14-m3",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_s24_1",
+      "productId": "prd_samsung_s24_ultra",
+      "sellerId": "sel_reliance",
+      "sellerName": "Reliance Digital",
+      "price": 124999,
+      "originalPrice": 134999,
+      "currency": "₹",
+      "productUrl": "https://www.reliancedigital.in/samsung-s24-ultra",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_s24_2",
+      "productId": "prd_samsung_s24_ultra",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 121999,
+      "originalPrice": 134999,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/samsung-s24-ultra",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_s24_3",
+      "productId": "prd_samsung_s24_ultra",
+      "sellerId": "sel_vijay",
+      "sellerName": "Vijay Sales",
+      "price": 123990,
+      "originalPrice": 134999,
+      "currency": "₹",
+      "productUrl": "https://www.vijaysales.com/samsung-s24-ultra",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_dyson_1",
+      "productId": "prd_dyson_v15_detect",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 58900,
+      "originalPrice": 65900,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/dyson-v15-detect",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_dyson_2",
+      "productId": "prd_dyson_v15_detect",
+      "sellerId": "sel_tatacliq",
+      "sellerName": "Tata CLiQ Luxury",
+      "price": 54900,
+      "originalPrice": 65900,
+      "currency": "₹",
+      "productUrl": "https://luxury.tatacliq.com/dyson-v15-detect",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_bose_1",
+      "productId": "prd_bose_quietcomfort_ultra",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 32900,
+      "originalPrice": 35900,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/bose-qc-ultra",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_bose_2",
+      "productId": "prd_bose_quietcomfort_ultra",
+      "sellerId": "sel_vijay",
+      "sellerName": "Vijay Sales",
+      "price": 31490,
+      "originalPrice": 35900,
+      "currency": "₹",
+      "productUrl": "https://www.vijaysales.com/bose-qc-ultra",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_awu2_1",
+      "productId": "prd_apple_watch_ultra_2",
+      "sellerId": "sel_reliance",
+      "sellerName": "Reliance Digital",
+      "price": 84900,
+      "originalPrice": 89900,
+      "currency": "₹",
+      "productUrl": "https://www.reliancedigital.in/apple-watch-ultra-2",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_awu2_2",
+      "productId": "prd_apple_watch_ultra_2",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 82990,
+      "originalPrice": 89900,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/apple-watch-ultra-2",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_airfryer_1",
+      "productId": "prd_philips_airfryer_xxl",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 13999,
+      "originalPrice": 18995,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/philips-airfryer-xxl",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_airfryer_2",
+      "productId": "prd_philips_airfryer_xxl",
+      "sellerId": "sel_vijay",
+      "sellerName": "Vijay Sales",
+      "price": 12999,
+      "originalPrice": 18995,
+      "currency": "₹",
+      "productUrl": "https://www.vijaysales.com/philips-airfryer-xxl",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_dell_1",
+      "productId": "prd_dell_xps_15",
+      "sellerId": "sel_techdirect",
+      "sellerName": "TechDirect Authorized",
+      "price": 245000,
+      "originalPrice": 265000,
+      "currency": "₹",
+      "productUrl": "https://techdirect-store.com/dell-xps-15",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_dell_2",
+      "productId": "prd_dell_xps_15",
+      "sellerId": "sel_reliance",
+      "sellerName": "Reliance Digital",
+      "price": 251990,
+      "originalPrice": 265000,
+      "currency": "₹",
+      "productUrl": "https://www.reliancedigital.in/dell-xps-15",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_ipad_1",
+      "productId": "prd_ipad_pro_m4",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 124900,
+      "originalPrice": 129900,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/ipad-pro-13-m4",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_ipad_2",
+      "productId": "prd_ipad_pro_m4",
+      "sellerId": "sel_tatacliq",
+      "sellerName": "Tata CLiQ Luxury",
+      "price": 121900,
+      "originalPrice": 129900,
+      "currency": "₹",
+      "productUrl": "https://luxury.tatacliq.com/ipad-pro-13-m4",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_sonos_1",
+      "productId": "prd_sonos_era_300",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 52999,
+      "originalPrice": 59999,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/sonos-era-300",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_sonos_2",
+      "productId": "prd_sonos_era_300",
+      "sellerId": "sel_tatacliq",
+      "sellerName": "Tata CLiQ Luxury",
+      "price": 49999,
+      "originalPrice": 59999,
+      "currency": "₹",
+      "productUrl": "https://luxury.tatacliq.com/sonos-era-300",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_roborock_1",
+      "productId": "prd_roborock_s8_pro",
+      "sellerId": "sel_techdirect",
+      "sellerName": "TechDirect Authorized",
+      "price": 108990,
+      "originalPrice": 129990,
+      "currency": "₹",
+      "productUrl": "https://techdirect-store.com/roborock-s8-pro",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_roborock_2",
+      "productId": "prd_roborock_s8_pro",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 114990,
+      "originalPrice": 129990,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/roborock-s8-pro",
+      "availability": "limited",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_kindle_1",
+      "productId": "prd_kindle_scribe",
+      "sellerId": "sel_techdirect",
+      "sellerName": "TechDirect Authorized",
+      "price": 29990,
+      "originalPrice": 34990,
+      "currency": "₹",
+      "productUrl": "https://techdirect-store.com/kindle-scribe",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_kindle_2",
+      "productId": "prd_kindle_scribe",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 31990,
+      "originalPrice": 34990,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/kindle-scribe",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_delonghi_1",
+      "productId": "prd_delonghi_magnifica",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 43990,
+      "originalPrice": 52990,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/delonghi-magnifica-s",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_delonghi_2",
+      "productId": "prd_delonghi_magnifica",
+      "sellerId": "sel_tatacliq",
+      "sellerName": "Tata CLiQ Luxury",
+      "price": 41490,
+      "originalPrice": 52990,
+      "currency": "₹",
+      "productUrl": "https://luxury.tatacliq.com/delonghi-magnifica-s",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_sgw6_1",
+      "productId": "prd_samsung_galaxy_watch6",
+      "sellerId": "sel_reliance",
+      "sellerName": "Reliance Digital",
+      "price": 27999,
+      "originalPrice": 36999,
+      "currency": "₹",
+      "productUrl": "https://www.reliancedigital.in/samsung-watch-6-classic",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_sgw6_2",
+      "productId": "prd_samsung_galaxy_watch6",
+      "sellerId": "sel_vijay",
+      "sellerName": "Vijay Sales",
+      "price": 25499,
+      "originalPrice": 36999,
+      "currency": "₹",
+      "productUrl": "https://www.vijaysales.com/samsung-watch-6-classic",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_mxmaster_1",
+      "productId": "prd_logitech_mx_master_3s",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 8995,
+      "originalPrice": 10995,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/logitech-mx-master-3s",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_mxmaster_2",
+      "productId": "prd_logitech_mx_master_3s",
+      "sellerId": "sel_techdirect",
+      "sellerName": "TechDirect Authorized",
+      "price": 8495,
+      "originalPrice": 10995,
+      "currency": "₹",
+      "productUrl": "https://techdirect-store.com/logitech-mx-master-3s",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_keychron_1",
+      "productId": "prd_keychron_q1_pro",
+      "sellerId": "sel_techdirect",
+      "sellerName": "TechDirect Authorized",
+      "price": 17499,
+      "originalPrice": 20999,
+      "currency": "₹",
+      "productUrl": "https://techdirect-store.com/keychron-q1-pro",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_keychron_2",
+      "productId": "prd_keychron_q1_pro",
+      "sellerId": "sel_tatacliq",
+      "sellerName": "Tata CLiQ Luxury",
+      "price": 18999,
+      "originalPrice": 20999,
+      "currency": "₹",
+      "productUrl": "https://luxury.tatacliq.com/keychron-q1-pro",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_anker_1",
+      "productId": "prd_anker_soundcore_motion_plus",
+      "sellerId": "sel_techdirect",
+      "sellerName": "TechDirect Authorized",
+      "price": 7490,
+      "originalPrice": 9999,
+      "currency": "₹",
+      "productUrl": "https://techdirect-store.com/anker-soundcore-motion-plus",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_anker_2",
+      "productId": "prd_anker_soundcore_motion_plus",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 7999,
+      "originalPrice": 9999,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/anker-soundcore-motion-plus",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_hue_1",
+      "productId": "prd_philips_hue_starter_kit",
+      "sellerId": "sel_croma",
+      "sellerName": "Croma Electronics",
+      "price": 10499,
+      "originalPrice": 13999,
+      "currency": "₹",
+      "productUrl": "https://www.croma.com/philips-hue-starter-kit",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "off_hue_2",
+      "productId": "prd_philips_hue_starter_kit",
+      "sellerId": "sel_reliance",
+      "sellerName": "Reliance Digital",
+      "price": 9999,
+      "originalPrice": 13999,
+      "currency": "₹",
+      "productUrl": "https://www.reliancedigital.in/philips-hue-starter-kit",
+      "availability": "in_stock",
+      "lastUpdated": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    }
+  ],
+  "priceHistories": [
+    {
+      "_id": "ph_sony_1",
+      "productId": "prd_sony_wh1000xm5",
+      "sellerName": "Vijay Sales",
+      "price": 29990,
+      "observedAt": "2026-06-24T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_sony_2",
+      "productId": "prd_sony_wh1000xm5",
+      "sellerName": "Vijay Sales",
+      "price": 28490,
+      "observedAt": "2026-07-24T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_sony_3",
+      "productId": "prd_sony_wh1000xm5",
+      "sellerName": "Vijay Sales",
+      "price": 27990,
+      "observedAt": "2026-08-23T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_sony_4",
+      "productId": "prd_sony_wh1000xm5",
+      "sellerName": "Vijay Sales",
+      "price": 26490,
+      "observedAt": "2026-09-22T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_sony_5",
+      "productId": "prd_sony_wh1000xm5",
+      "sellerName": "Vijay Sales",
+      "price": 25990,
+      "observedAt": "2026-10-19T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_mbp_1",
+      "productId": "prd_macbook_pro_14",
+      "sellerName": "Croma Electronics",
+      "price": 194900,
+      "observedAt": "2026-05-25T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_mbp_2",
+      "productId": "prd_macbook_pro_14",
+      "sellerName": "Croma Electronics",
+      "price": 189900,
+      "observedAt": "2026-07-14T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_mbp_3",
+      "productId": "prd_macbook_pro_14",
+      "sellerName": "Croma Electronics",
+      "price": 186900,
+      "observedAt": "2026-08-23T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_mbp_4",
+      "productId": "prd_macbook_pro_14",
+      "sellerName": "Croma Electronics",
+      "price": 184500,
+      "observedAt": "2026-10-02T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_mbp_5",
+      "productId": "prd_macbook_pro_14",
+      "sellerName": "Croma Electronics",
+      "price": 181900,
+      "observedAt": "2026-10-20T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_s24_1",
+      "productId": "prd_samsung_s24_ultra",
+      "sellerName": "Croma Electronics",
+      "price": 132999,
+      "observedAt": "2026-06-04T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_s24_2",
+      "productId": "prd_samsung_s24_ultra",
+      "sellerName": "Croma Electronics",
+      "price": 129999,
+      "observedAt": "2026-07-24T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_s24_3",
+      "productId": "prd_samsung_s24_ultra",
+      "sellerName": "Croma Electronics",
+      "price": 126999,
+      "observedAt": "2026-09-07T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_s24_4",
+      "productId": "prd_samsung_s24_ultra",
+      "sellerName": "Croma Electronics",
+      "price": 123999,
+      "observedAt": "2026-10-07T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_s24_5",
+      "productId": "prd_samsung_s24_ultra",
+      "sellerName": "Croma Electronics",
+      "price": 121999,
+      "observedAt": "2026-10-21T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_breville_1",
+      "productId": "prd_breville_barista_touch",
+      "sellerName": "Tata CLiQ Luxury",
+      "price": 82990,
+      "observedAt": "2026-07-04T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_breville_2",
+      "productId": "prd_breville_barista_touch",
+      "sellerName": "Tata CLiQ Luxury",
+      "price": 79990,
+      "observedAt": "2026-08-08T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_breville_3",
+      "productId": "prd_breville_barista_touch",
+      "sellerName": "Tata CLiQ Luxury",
+      "price": 76990,
+      "observedAt": "2026-09-12T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_breville_4",
+      "productId": "prd_breville_barista_touch",
+      "sellerName": "Tata CLiQ Luxury",
+      "price": 74990,
+      "observedAt": "2026-10-18T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_garmin_1",
+      "productId": "prd_garmin_epix_pro",
+      "sellerName": "TechDirect Authorized",
+      "price": 104990,
+      "observedAt": "2026-06-14T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_garmin_2",
+      "productId": "prd_garmin_epix_pro",
+      "sellerName": "TechDirect Authorized",
+      "price": 99990,
+      "observedAt": "2026-08-03T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_garmin_3",
+      "productId": "prd_garmin_epix_pro",
+      "sellerName": "TechDirect Authorized",
+      "price": 96990,
+      "observedAt": "2026-09-17T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    },
+    {
+      "_id": "ph_garmin_4",
+      "productId": "prd_garmin_epix_pro",
+      "sellerName": "TechDirect Authorized",
+      "price": 94990,
+      "observedAt": "2026-10-17T08:40:45.676Z",
+      "dataSource": "BasketWise Price Index (Demo Verified)",
+      "isVerified": true
+    }
+  ],
+  "wishlists": [
+    {
+      "_id": "wsh_alex_1",
+      "userId": "usr_alex_1",
+      "productIds": [
+        "prd_sony_wh1000xm5",
+        "prd_breville_barista_touch",
+        "prd_logitech_mx_master_3s"
+      ],
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    }
+  ],
+  "shoppingLists": [
+    {
+      "_id": "lst_alex_home_office",
+      "userId": "usr_alex_1",
+      "name": "Home Office Upgrade 2026",
+      "items": [
+        {
+          "productId": "prd_sony_wh1000xm5",
+          "quantity": 1,
+          "purchased": true,
+          "selectedSellerId": "sel_vijay"
+        },
+        {
+          "productId": "prd_logitech_mx_master_3s",
+          "quantity": 1,
+          "purchased": false,
+          "selectedSellerId": "sel_techdirect"
+        },
+        {
+          "productId": "prd_keychron_q1_pro",
+          "quantity": 1,
+          "purchased": false,
+          "selectedSellerId": "sel_techdirect"
+        }
+      ],
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "lst_alex_coffee_station",
+      "userId": "usr_alex_1",
+      "name": "Artisan Coffee Station",
+      "items": [
+        {
+          "productId": "prd_breville_barista_touch",
+          "quantity": 1,
+          "purchased": false,
+          "selectedSellerId": "sel_tatacliq"
+        }
+      ],
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    }
+  ],
+  "priceAlerts": [
+    {
+      "_id": "alt_alex_sony",
+      "userId": "usr_alex_1",
+      "productId": "prd_sony_wh1000xm5",
+      "targetPrice": 26000,
+      "currency": "₹",
+      "isActive": true,
+      "lastEvaluatedAt": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    },
+    {
+      "_id": "alt_alex_macbook",
+      "userId": "usr_alex_1",
+      "productId": "prd_macbook_pro_14",
+      "targetPrice": 175000,
+      "currency": "₹",
+      "isActive": true,
+      "lastEvaluatedAt": "2026-10-22T08:40:45.675Z",
+      "createdAt": "2026-10-22T08:40:45.675Z",
+      "updatedAt": "2026-10-22T08:40:45.675Z"
+    }
+  ],
+  "contactMessages": [
+    {
+      "_id": "msg_welcome_1",
+      "name": "Devin Vance",
+      "email": "devin.vance@example.com",
+      "subject": "Partnership Inquiry for Retailers",
+      "message": "Hello BasketWise team, we are eager to integrate our certified appliance store inventory via official API adapter.",
+      "createdAt": "2026-10-17T08:40:45.676Z"
+    }
+  ]
+}
